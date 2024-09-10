@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Template | v1.0.0</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="./assets/styles/default-style.css">
+</head>
+<body>
+    <div id="page-content">
+        <header>
+            <div id="header-content">
+                <!-- NavBar -->
+            </div>
+        </header>
+        <main>
+            <div id="main-content">
+                <h1 class="title">Hello, world!</h1>
+
+                <section>
+                    <h3 id="count">0 count</h3>
+                    <h3 id="error">(Error! Count cannot be less than 0.)</h3>
+                </section>
+                <section>
+                    <button type="button" onclick="increase()" id="increase-button">+</button>
+                    <button type="reset" onclick="reset()" id="reset-button">Reset</button>
+                    <button type="button" onclick="decrease()" id="decrease-button">-</button>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div id="footer-content">
+                <p>WebSite Template &copy; Copyright</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
